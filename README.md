@@ -83,6 +83,17 @@ python -m pip install pyinstaller
 ```
 
 ### 3) 执行打包
+## 打包为 Linux 可执行文件（.exe）
+
+> 注：Linux 上扩展名通常不要求 `.exe`，本项目按需求输出 `ai_packet_tool.exe`。
+
+### 安装打包依赖
+
+```bash
+python -m pip install pyinstaller
+```
+
+### 执行打包
 
 ```bash
 ./build_exe.sh

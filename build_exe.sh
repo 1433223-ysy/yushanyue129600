@@ -17,6 +17,7 @@ if ! "$PY_BIN" -m PyInstaller --version >/dev/null 2>&1; then
 fi
 
 "$PY_BIN" -m PyInstaller \
+python -m PyInstaller \
   --onefile \
   --name ai_packet_tool.exe \
   --clean \
